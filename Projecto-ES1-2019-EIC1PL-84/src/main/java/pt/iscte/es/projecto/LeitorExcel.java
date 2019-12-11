@@ -28,6 +28,7 @@ public class LeitorExcel {
 	
 	//ONDE É LIDO O EXCELL
 	private void lerExcell() {
+		System.out.println("ler exellll");
 		String conteudoLinha = "";
 		System.out.println(conteudoLinha);
 		for(int i = sheet.getFirstRowNum()+1; i < sheet.getPhysicalNumberOfRows();i++) {
